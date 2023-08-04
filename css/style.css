@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+  box-sizing: border-box;
+}
+/* body */
+body {
+  font-family: "poppins", sans-serif;
+  background-color: #5d6169da;
+  color: rgb(83, 80, 80);
+}
+/* End Body */
+
+/* header */
+header {
+  height: 60px;
+  background-color: gray;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 9%;
+  background-color: rgba(80, 125, 185, 0.507);
+  border-bottom: 1px solid #293444;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.navbar-logo {
+  font-size: 30px;
+  font-style: italic;
+  margin: -20px;
+  font-weight: 700;
+  color: rgb(98, 155, 241);
+  flex: auto;
+  display: inline;
+}
+
+span {
+  color: rgb(204, 203, 202);
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: rgb(206, 228, 253);
+  padding: 0 12px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  display: inline;
+}
+
+.navbar-nav a:hover {
+  background-color: rgb(58, 174, 241);
+  transition: 0.5s;
+}
+.hero {
+  background-image: url(../img/biotalaut.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  display: flex;
+  align-items: first baseline;
+}
+
+.hero h1 {
+  background-color: #cacaca73;
+  color: rgb(233, 142, 38);
+}
+.hero span {
+  color: rgb(39, 154, 248);
+}
+.slash h2 {
+  color: rgb(233, 233, 235);
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 12px;
+  background-color: #29344463;
+}
+.fish {
+  border: 0 solid rgb(92, 99, 100);
+  border-radius: 5px;
+  width: 27%;
+  margin-bottom: -42px;
+  background-color: #29344448;
+  /* background-color: #293444;
+  width: 20%; */
+}
+
+.about .image1 {
+  margin-top: -10%;
+  /* display: flex; */
+}
+.about h2 {
+  color: rgb(41, 180, 235);
+  font-size: 30px;
+  width: 89%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 12px;
+  background-color: #29344463;
+  /* margin-top: -10px; */
+  /* display: flex; */
+}
+
+.about p {
+  color: antiquewhite;
+}
+article {
+  border: 0 solid rgb(92, 99, 100);
+  border-radius: 5px;
+  width: 70%;
+  margin: 10px;
+  background-color: #29344448;
+}
+aside {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  margin: 20%px;
+  height: 19vh;
+  padding-top: 40px;
+}
+.info ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: aliceblue;
+}
+.info h4 {
+  background-color: #9fa2a7;
+}
+.info img {
+  width: 50px;
+  height: 40px;
+  margin: 2px;
+  border-radius: 10px;
+}
+/*  */
+.about img {
+  padding: 20px;
+  width: 90%;
+  height: 50%;
+  border-radius: 10%;
+}
+
+.delta img {
+  width: 500px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+ul {
+  flex: 0 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #2d2f31;
+  text-align: center;
+  padding: 1rem 7%;
+  margin-top: 1rem;
+}
+footer .media {
+  padding: 1rem 0;
+  margin-top: -1rem;
+  font-size: 1.2rem;
+}
+footer .media a {
+  margin: 1rem;
+  margin-top: -2rem;
+  text-align: center;
+  color: rgb(212, 212, 212);
+}
+footer .media img {
+  width: 1.8rem;
+  padding-top: 1rem;
+}
+footer .media a:hover {
+  color: #ee8207;
+}
+/* End Footer */
+
+/* Tablet */
+
+/* Media Queris */
+@media (max-width: 768px) {
+  html {
+    font-size: 72.5%;
+    margin-bottom: -200px;
+  }
+}
+.navbar {
+  padding: 20px;
+}
